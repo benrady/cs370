@@ -4,7 +4,7 @@ import javax.servlet.http.*;
 
 @SuppressWarnings("serial")
 public class CheckClearingServlet extends HttpServlet {
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.setContentType("application/json");
 		resp.getWriter().print("{\"status\": \"ready\"}");
 	}
