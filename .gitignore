@@ -1,2 +1,5 @@
 .settings
-war/WEB-INF/classes
+.gradle
+build
+src/main/webapp/WEB-INF/lib/*
+vendor
