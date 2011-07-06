@@ -1,5 +1,6 @@
 .settings
 .gradle
 build
+war
 src/main/webapp/WEB-INF/lib/*
 vendor
