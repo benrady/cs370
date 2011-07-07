@@ -1,6 +1,9 @@
 package edu.luc.clearing;
 import java.io.IOException;
-import javax.servlet.http.*;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @SuppressWarnings("serial")
 public class CheckClearingServlet extends HttpServlet {
