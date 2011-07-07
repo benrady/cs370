@@ -3,7 +3,7 @@
 * Create a new app. Name it whatever you like, but email me your application ID.
 * Set the value of the &lt;application&gt; element in the file *src/main/webapp/WEB-INF/appengine-web.xml* to your new app id
 * Set the value of the gae:appcfg:email property in *build.gradle* to the account you used to sign up for Google App Engine.
-* Run <code>./bin/gradle gaeUpload</code> to deploy your application. You may be prompted for a password. This will be the password to the account you used to sign up for Google App Engine. _It may print this password in clear text, so be careful!_
+* Run <code>gradle gaeUpload</code> to deploy your application. You may be prompted for a password. This will be the password to the account you used to sign up for Google App Engine. _It may print this password in clear text, so be careful!_
 
 ## Basic Build Commands
 
@@ -24,7 +24,7 @@ You can use these commands to build, test, and deploy your application. Note tha
 #### Generate an eclipse project
     gradle eclipse
 
-## Basic git commands
+## Basic git Commands
 
 #### Clones this repository
 
