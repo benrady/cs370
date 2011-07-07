@@ -20,6 +20,7 @@ apply plugin: 'eclipse'
 
 dependencies {
     compile 'javax.servlet:servlet-api:2.5'
+    compile 'org.json:json:20090211'
     gaeSdk 'com.google.appengine:appengine-java-sdk:1.5.1'
     testCompile group: 'junit', name: 'junit', version: '4.+'
 }
